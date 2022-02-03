@@ -1,0 +1,103 @@
+
+==================[03.02.2022 17:02:00]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '0' for key 'PRIMARY'
+   at MySqlPacket MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+=========================================================
+
+==================[03.02.2022 17:02:00]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '0' for key 'PRIMARY'
+   at MySqlPacket MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at int MySql.Data.MySqlClient.NativeDriver.GetResult(ref int affectedRow, ref long insertedId)
+=========================================================
+
+==================[03.02.2022 17:02:00]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '0' for key 'PRIMARY'
+   at MySqlPacket MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at int MySql.Data.MySqlClient.NativeDriver.GetResult(ref int affectedRow, ref long insertedId)
+   at int MySql.Data.MySqlClient.Driver.GetResult(int statementId, ref int affectedRows, ref long insertedId)
+   at ResultSet MySql.Data.MySqlClient.Driver.NextResult(int statementId, bool force)
+   at bool MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+=========================================================
+
+==================[03.02.2022 17:02:00]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '0' for key 'PRIMARY'
+   at MySqlPacket MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at int MySql.Data.MySqlClient.NativeDriver.GetResult(ref int affectedRow, ref long insertedId)
+   at int MySql.Data.MySqlClient.Driver.GetResult(int statementId, ref int affectedRows, ref long insertedId)
+   at ResultSet MySql.Data.MySqlClient.Driver.NextResult(int statementId, bool force)
+   at bool MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySqlDataReader MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+=========================================================
+
+==================[03.02.2022 17:02:00]==================
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '0' for key 'PRIMARY'
+   at MySqlPacket MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at int MySql.Data.MySqlClient.NativeDriver.GetResult(ref int affectedRow, ref long insertedId)
+   at int MySql.Data.MySqlClient.Driver.GetResult(int statementId, ref int affectedRows, ref long insertedId)
+   at ResultSet MySql.Data.MySqlClient.Driver.NextResult(int statementId, bool force)
+   at bool MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySqlDataReader MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySqlDataReader MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at int MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Task<int> System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+   at void System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+=========================================================
+
+==================[03.02.2022 17:12:12]==================
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'Newtonsoft.Json.Linq.JObject' does not contain a definition for 'hair'
+   at Expr Microsoft.CSharp.RuntimeBinder.RuntimeBinder.BindProperty(ICSharpBinder payload, ArgumentObject argument, LocalVariableSymbol local, Expr optionalIndexerArguments)
+=========================================================
+
+==================[03.02.2022 17:12:12]==================
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'Newtonsoft.Json.Linq.JObject' does not contain a definition for 'hairColor'
+   at Expr Microsoft.CSharp.RuntimeBinder.RuntimeBinder.BindProperty(ICSharpBinder payload, ArgumentObject argument, LocalVariableSymbol local, Expr optionalIndexerArguments)
+=========================================================
+
+==================[03.02.2022 17:12:12]==================
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'Newtonsoft.Json.Linq.JObject' does not contain a definition for 'hairColor2'
+   at Expr Microsoft.CSharp.RuntimeBinder.RuntimeBinder.BindProperty(ICSharpBinder payload, ArgumentObject argument, LocalVariableSymbol local, Expr optionalIndexerArguments)
+=========================================================
+
+==================[03.02.2022 17:12:12]==================
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'Newtonsoft.Json.Linq.JObject' does not contain a definition for 'beardColor'
+   at Expr Microsoft.CSharp.RuntimeBinder.RuntimeBinder.BindProperty(ICSharpBinder payload, ArgumentObject argument, LocalVariableSymbol local, Expr optionalIndexerArguments)
+=========================================================
+
+==================[03.02.2022 17:12:12]==================
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'Newtonsoft.Json.Linq.JObject' does not contain a definition for 'beard'
+   at Expr Microsoft.CSharp.RuntimeBinder.RuntimeBinder.BindProperty(ICSharpBinder payload, ArgumentObject argument, LocalVariableSymbol local, Expr optionalIndexerArguments)
+=========================================================
+
+==================[03.02.2022 17:12:12]==================
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'Newtonsoft.Json.Linq.JObject' does not contain a definition for 'beardOpacity'
+   at Expr Microsoft.CSharp.RuntimeBinder.RuntimeBinder.BindProperty(ICSharpBinder payload, ArgumentObject argument, LocalVariableSymbol local, Expr optionalIndexerArguments)
+=========================================================
+
+==================[03.02.2022 17:12:12]==================
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'Newtonsoft.Json.Linq.JObject' does not contain a definition for 'chestHairColor'
+   at Expr Microsoft.CSharp.RuntimeBinder.RuntimeBinder.BindProperty(ICSharpBinder payload, ArgumentObject argument, LocalVariableSymbol local, Expr optionalIndexerArguments)
+=========================================================
+
+==================[03.02.2022 17:12:12]==================
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'Newtonsoft.Json.Linq.JObject' does not contain a definition for 'chestHair'
+   at Expr Microsoft.CSharp.RuntimeBinder.RuntimeBinder.BindProperty(ICSharpBinder payload, ArgumentObject argument, LocalVariableSymbol local, Expr optionalIndexerArguments)
+=========================================================
+
+==================[03.02.2022 17:12:13]==================
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'Newtonsoft.Json.Linq.JObject' does not contain a definition for 'chestHairOpacity'
+   at Expr Microsoft.CSharp.RuntimeBinder.RuntimeBinder.BindProperty(ICSharpBinder payload, ArgumentObject argument, LocalVariableSymbol local, Expr optionalIndexerArguments)
+=========================================================
+
+==================[03.02.2022 17:12:44]==================
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at void GVRP.Module.Players.PlayerDb.SaveRingtone(DbPlayer iPlayer) in C:/Users/zem/Desktop/NightRP/Server-main/Module/Players/PlayerDb.cs:line 551
+=========================================================
+
+==================[03.02.2022 17:12:44]==================
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at void GVRP.Module.Players.PlayerDb.SaveRingtone(DbPlayer iPlayer) in C:/Users/zem/Desktop/NightRP/Server-main/Module/Players/PlayerDb.cs:line 551
+   at void GVRP.Module.Telefon.App.Settings.SettingsEditRingtones.saveRingtone(Player player, int ringtoneId) in C:/Users/zem/Desktop/NightRP/Server-main/Module/Telefon/App/Settings/Ringtone/SettingsEditRingtones.cs:line 29
+   --- End of inner exception stack trace ---
+   at object RuntimeMethodHandle.InvokeMethod(object target, object[] arguments, Signature sig, bool constructor, bool wrapExceptions)
+   at object System.Reflection.RuntimeMethodInfo.Invoke(obj
